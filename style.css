@@ -1,0 +1,85 @@
+/* Сброс базовых стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #333;
+}
+
+/* Карточка по центру */
+.card {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Индикатор статуса */
+.status-badge {
+    display: inline-block;
+    background-color: #e6fffa;
+    color: #00a389;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #2d3748;
+    margin-bottom: 12px;
+}
+
+p {
+    color: #718096;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+p strong {
+    color: #4a5568;
+}
+
+/* Список преимуществ */
+.features {
+    text-align: left;
+    background: #f7fafc;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.feature-item {
+    font-size: 0.95rem;
+    color: #4a5568;
+    margin-bottom: 8px;
+}
+
+.feature-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Подвал */
+footer {
+    font-size: 0.8rem;
+    color: #a0aec0;
+    border-top: 1px solid #edf2f7;
+    padding-top: 16px;
+}
